@@ -7,3 +7,5 @@ def BeersAll(request):
         #beers = Beer.description.maketrans().order_by('name')
         context = {'data': data_locality}
         return render(request, 'beersall.html', context)
+        return render(request, 'beersall.html', context)
+        return render(request, 'beersall.html', context)
