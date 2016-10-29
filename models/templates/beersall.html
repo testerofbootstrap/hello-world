@@ -1,0 +1,13 @@
+<head>
+    <title>beersall</title>
+</head>
+{% block content %}
+        <div id='beerslist'>
+
+                <p><a href="/beers{{ data_locality.slug }}/"><img src="{{ data_locality.image.url }}"/>{{ beer }}</a></p>
+                    <br>
+                <p><a href="/beers{{ beer.slug }}/"><img src="{{ beer.image1.url }} "/>{{ beer }}</a></p>
+
+        </div>
+
+{% endblock %}
